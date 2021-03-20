@@ -1,13 +1,11 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 [assembly: ExportFont("SEGOEUI.ttf", Alias = "RegularFont")]
 [assembly: ExportFont("SEGOEUIL.ttf", Alias = "LightFont")]
 [assembly: ExportFont("SEGUISB.ttf", Alias = "MediumFont")]
 namespace AlarmApp
 {
-    public partial class App : Application
+    public partial class App
     {
         public App()
         {
